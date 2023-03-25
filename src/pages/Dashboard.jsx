@@ -4,6 +4,7 @@ import { toast } from 'react-toastify';
 
 // components
 import Intro from '../components/Intro';
+import AddBudgetForm from '../components/AddBudgetForm';
 
 // helper functions
 import { fetchData } from '../helpers';
@@ -38,6 +39,15 @@ const Dashboard = () => {
             {userName ? (
                 <div className="dashboard">
                     <h1>Welcome back, <span className='accent'>{userName}</span></h1>
+
+                    <div className="grid-sm">
+                        {/* {budgets ? () : () } */}
+                        <div className="grid-lg">
+                            <div className="flex-lg">
+                                <AddBudgetForm />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             ) : <Intro />}
         </>
