@@ -61,11 +61,11 @@ const Dashboard = () => {
 
                     <div className="grid-sm">
                         {/* {budgets ? () : () } */}
-                        <div className="grid-lg">
+                        {/* <div className="grid-lg">
                             <div className="flex-lg">
                                 <AddBudgetForm />
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             ) : <Intro />}
