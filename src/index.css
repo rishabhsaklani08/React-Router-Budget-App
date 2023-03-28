@@ -323,10 +323,10 @@ nav a {
   font-weight: bold;
 }
 
-@media screen and (max-width: 525px) {
+@media screen (min-width: 393) and (max-width: 477px) {
   nav a span {
     /* display: none; */
-    font-size: var(--fs-300);
+    font-size: var(--fs-400);
   }
 }
 
