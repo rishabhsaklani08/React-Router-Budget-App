@@ -6,7 +6,7 @@ import { toast } from 'react-toastify';
 import Intro from '../components/Intro';
 import AddBudgetForm from '../components/AddBudgetForm';
 import AddExpenseForm from "../components/AddExpenseForm";
-
+import BudgetItem from "../components/BudgetItem";
 
 // helper functions
 import { createBudget, createExpense, fetchData, waait } from "../helpers"
