@@ -325,7 +325,8 @@ nav a {
 
 @media screen and (max-width: 525px) {
   nav a span {
-    display: none;
+    /* display: none; */
+    font-size: var(--fs-300);
   }
 }
 
