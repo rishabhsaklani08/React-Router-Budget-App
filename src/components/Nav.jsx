@@ -14,7 +14,7 @@ const Nav = ({ userName }) => {
                 to="/"
                 aria-label="Go to home"
             >
-                <img src={logomark} alt="" height={80} />
+                <img src={logomark} alt="" height={60} />
                 <span>Gullak</span>
             </NavLink>
             {
