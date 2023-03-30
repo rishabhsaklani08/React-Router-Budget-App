@@ -30,7 +30,7 @@ const Intro = () => {
                     </button>
                 </Form>
             </div>
-            <img src={illustration} alt="Person with money" width={450} />
+            <img src={illustration} alt="Person with money" width={350} />
         </div>
     )
 }
