@@ -15,7 +15,7 @@ const Nav = ({ userName }) => {
                 aria-label="Go to home"
             >
                 <img src={logomark} alt="" height={60} />
-                <span>Gullak</span>
+                <span>KhataBook</span>
             </NavLink>
             {
                 userName && (
