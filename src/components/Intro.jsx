@@ -5,7 +5,7 @@ import { Form } from "react-router-dom"
 import { UserPlusIcon } from "@heroicons/react/24/solid";
 
 //assets
-import illustration from "../assets/illustration.jpg"
+import illustration from "../assets/illustration.png"
 
 const Intro = () => {
     return (
@@ -30,7 +30,7 @@ const Intro = () => {
                     </button>
                 </Form>
             </div>
-            <img src={illustration} alt="Person with money" width={600} />
+            <img src={illustration} alt="Person with money" width={500} />
         </div>
     )
 }
