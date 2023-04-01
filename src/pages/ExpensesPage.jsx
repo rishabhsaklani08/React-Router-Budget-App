@@ -10,8 +10,6 @@ import Table from "../components/Table";
 // helpers
 import { deleteItem, fetchData } from "../helpers";
 
-// library imports
-import { toast } from "react-toastify";
 
 // loader
 export async function expensesLoader() {
