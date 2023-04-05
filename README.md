@@ -2,7 +2,7 @@
 
 This is an interactive budget app using React Router 6.8 and local storage.
 
-![Homepage preview of demo page](assets/App-preview.png)
+![Homepage preview of demo page](public/App-preview.png)
 
 [Demo App](https://khata-book-by-rishabhsaklani.netlify.app/)
 
